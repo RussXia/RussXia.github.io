@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: About
+title: Resume
 description: "Hey, this is RussXia."
 header-img: "img/post-bg-desk.jpg"
 ---
