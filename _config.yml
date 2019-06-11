@@ -10,7 +10,7 @@ github_repo: "https://github.com/russxia/russxia.github.io.git" # you code repos
 
 # Sidebar settings
 sidebar: false                           # whether or not using Sidebar.
-sidebar-about-description: "身处寒夜，把握星光。!"
+sidebar-about-description: "身处寒夜，把握星光。"
 sidebar-avatar: /img/about-me.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
