@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: "ConcurrentHashMap的高并发和线程安全"
-tag: [Java,Java面试]
+tag: [Java,Java基础]
 ---
 # 为什么需要ConcurrentHashMap
 在不需要线程安全的情况下，HashMap可以轻松满足我们的日常需求。但是HashMap是线程不安全的，在jdk1.8之前，多线程并发调用put方法，引发扩容，触发resize的过程，因为是链表的关系，甚至有几率形成死循环。([参考资料](https://coolshell.cn/articles/9606.html))。jdk1.8中，采用了复制的方法，而不是操作原链，不会再出现死循环的情况。
