@@ -10,8 +10,8 @@ header-img: "img/post-bg-desk.jpg"
 ------
 - 本科/男/1994 
 - 本科/湘潭大学/2016届
-- Github：https://github.com/russxia
-- blog: https://russxia.com
+- Github：[https://github.com/russxia](https://github.com/russxia)
+- blog: [https://russxia.com](https://github.com/russxia)
 - 期望职位：Java开发工程师
 
 ------
