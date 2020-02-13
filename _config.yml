@@ -1,0 +1,95 @@
+# Site settings
+title: RussXia
+SEOTitle: 身处寒夜，把握星光。
+header-img: img/post-bg-desk.jpg
+blog-img: img/post-bg-desk.jpg
+email: xzy199400@gmail.com
+keyword: "RussXia, RuzzZZ"
+url: "https://www.russxia.com"          # your host, for absolute URL
+baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
+github_repo: "https://github.com/russxia/russxia.github.io.git" # you code repository
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "身处寒夜，把握星光。"
+sidebar-avatar: /img/about-me.jpeg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# SNS settings
+RSS: false
+# weibo_username:     qiubaiying
+# zhihu_username:     qiubaiying
+github_username:    russxia
+# facebook_username:  baiying.qiu.7
+# jianshu_username:   e71990ada2fd
+#twitter_username:   qiubaiying
+
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+permalink: pretty
+paginate: 10
+exclude: []
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+# Gitalk
+gitalk:
+  enable: true    #是否开启Gitalk评论
+  clientID: 2a1d936796cbbed41d67                            #生成的clientID
+  clientSecret: 774b09fa9e9cd13b448dfad256f1845eede54225    #生成的clientSecret
+  repo: RussXia.github.io    #仓库名称
+  accessToken: 574dc1149ac9795f6c531e8d9591bc4e389a59e4
+  owner: RussXia    #github用户名
+  admin: RussXia
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+
+
+# 统计
+# Google Analytics
+ga_track_id: 'UA-141788395-1'            # Format: UA-xxxxxx-xx
+ga_domain: auto               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+
+
+
+
+
+# Featured Tags
+featured-tags: true                     # 是否使用首页标签
+featured-condition-size: 4              # 相同标签数量大于这个数，才会出现在首页
+
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+
+# Friends
+friends: [
+{
+  title: "RussXia Blog",
+  href: "https://www.russxia.com"
+}
+]
