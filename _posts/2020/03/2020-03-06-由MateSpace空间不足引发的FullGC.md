@@ -83,13 +83,13 @@ HotSpot在JDK1.7中，符号引用(Symbols) ==> Non-Heap Memory；字符串常�
 
 JDK1.8中，HotSpot彻底取消了Perm，取而代之的就是Matespace。PermGen中，永久代的大小受JVM最大内存限制(`-Xmx`)，MetaSpace直接使用Non-Heap内存，只受 `-XX:MaxMetaspaceSize` 参数限制。
 
-![image-20200309150738179](https://github.com/RussXia/RussXia.github.io/blob/master/_pic/perm-method-area.png)
+![image-20200309150738179](https://raw.githubusercontent.com/RussXia/RussXia.github.io/master/_pic/perm-method-area.png)
 
 #### 堆外内存的GC
 
 堆外内存是指除了`-Xmx` 设置的java堆外的，Java进程所使用的其他内存。主要包括:DirectByteBuffer分配的native memory；线程栈分配的系统内存；java 8里还包括metaspace元数据空间等等。
 
-![644464997-5d809dd65306b_articlex](/Users/dasouche/workspace/RussXia.github.io/_pic/jvm-heam-non-heap.png)
+![644464997-5d809dd65306b_articlex](https://raw.githubusercontent.com/RussXia/RussXia.github.io/master/_pic/jvm-heam-non-heap.png)
 
 DirectByteBuffer是通过Unsafe.allocateMemory(long size)来分配空间，通过Cleaner来实现堆外内存的释放。如果启动时`-DisableExplicitGC`禁止了System.gc()，可能会出现OOM的风险。
 
