@@ -4,6 +4,7 @@ title: "Java中Thread相关的一些小知识"
 catalog: true
 tag: [Java,Java基础,2019]
 ---
+# Java中Thread相关的一些小知识
 
 ## Java使用进程执行shell命令
 ```
