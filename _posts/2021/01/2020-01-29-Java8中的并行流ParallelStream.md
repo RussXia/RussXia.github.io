@@ -49,7 +49,7 @@ IntStream.range(1, 20).parallel()
 
 上面是一个非常简单的`ParallelStream`使用的demo，ParallelStream就是一个并行的流，它和Stream唯一的区别就是Stream是并行的，而ParallelStream是并行的。
 
-![3igzmhuynj](/Users/dasouche/Downloads/3igzmhuynj.png)
+![3igzmhuynj](https://raw.githubusercontent.com/RussXia/RussXia.github.io/master/_pic/3igzmhuynj.png)
 
 + ForkJoinPool.commonPool
     + 分治思想
