@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: "Java8中的并行流ParallelStream"
-catalog: false
+catalog: true
 tag: [Java,2021,Java基础]
 ---
 # Java8中的并行流ParallelStream
